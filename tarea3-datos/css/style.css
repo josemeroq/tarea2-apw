@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/imag/imgr1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top:100px;
+}
+
+.contenedortodo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.cajatrasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+    backdrop-filter: blur(10px);
+    background-color: rgb(red, green, blue, 0,5);
+}
+
+.cajatrasera div{
+    margin: 100px 40px;
+    color: rgb(8, 4, 4);
+    transition: all 500ms;
+}
+
+.cajatrasera div p,
+.cajatrasera a{
+    margin-top: 30px;
+    
+}
+
+.cajatrasera div h3{
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.cajatrasera a{
+    padding: 10px 70px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    outline: none;
+    transform: all 300ms;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cajatrasera a:hover{
+    background: #df8032;
+    color:rgb(red, green, blue, 0,5)
+}
+
+.contenedor_registrolog{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -195px;
+    left: 10px;
+
+   }
+
+.contenedor_registrolog form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor_registrolog form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #df8032;
+}
+
+.contenedor_registrolog form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size:16px;
+    outline: none;
+}
+
+.contenedor_registrolog form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #df8032;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+/*Pagina de registro */
+.contenedor_registrolog2{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    max-width: 680px;
+    position: relative;
+    top: 305px;
+    left: 200px;
+
+   }
+
+.contenedor_registrolog2 form{
+    width: 100%;
+    padding: 20px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+  
+  [type="checkbox"] {
+    display: none;
+  }
+  
+  [type="checkbox"]:checked + label::before {
+    background: black;
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  
+  [type="checkbox"]:checked + label {
+    color: black;
+  }
+  
+  /* ---- FORMULARIO ---- */
+  
+  .form {
+    border-top: 2px solid black;
+    max-width: 400px;
+    padding: 30px 50px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .form-titulo {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  
+  .form-input {
+    margin-bottom: 30px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15x;
+    height: 9px;
+    color: rgb(10, 10, 10);
+  }
+  
+  .form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+    padding: 7px;
+    background: #f2f2f2;
+    font-size:16px;
+    border-bottom: 1px solid rgb(14, 81, 88);
+  }
+  
+  .form-input input:focus + label {
+    font-weight: bold;
+    color: var(--cnegro);
+  }
+  
+  .form-terminocondi {
+    margin-left: 15px;
+    position: relative;
+    color: var(--ctexto);
+    font-size: 13px;
+  }
+  
+  .form-terminocondi label::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    position: absolute;
+    left: -14px;
+  }
+  
+  .form-boton input {
+    background: #df8032;
+    color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .form-boton input:hover {
+    background: #80500a;
+    transition: 0.5s;
+  }
+
+  .mensajeCorrecto {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .mensajeError {
+    color: rgb(184, 31, 31);
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
